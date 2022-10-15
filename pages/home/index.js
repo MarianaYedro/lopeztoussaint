@@ -33,21 +33,7 @@ export const Home = ({ data }) => {
     );
 };
 
-Home.propTypes = {
-    data: PropTypes.shape({
-        about: PropTypes.object.isRequired,
-        services: PropTypes.array.isRequired,
-        section: PropTypes.object.isRequired,
-    }).isRequired,
-    
-};
+
 
 export default Home;
 
-export async function getStaticProps({locale}) {
-    const data = locale === "es" ? ES : ES;
-
-    return {
-        props: {data}
-    }
-}
