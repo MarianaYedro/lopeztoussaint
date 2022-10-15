@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import Navbar from "../../components/Navbar/Navbar";
 
 
-export const Home = ({ data }) => {
+export default function Home({}) {
     return (
         
             <Layout title="LTS | Home">
@@ -21,5 +21,4 @@ export const Home = ({ data }) => {
 
 
 
-export default Home;
 
