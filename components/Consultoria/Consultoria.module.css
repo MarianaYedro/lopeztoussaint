@@ -1,0 +1,45 @@
+.consultoria {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consultoria h2 {
+    color: #368ddd;
+}
+
+.content {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.box {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box h3 {
+    color: #368ddd;
+    font-weight: 100;
+}
+
+.box p {
+    color: #606060;
+}
+
+.box button {
+    background-color: #368ddd;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+{
+    "about": {
+        "title": "Sobre nosotros",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium velit porta lectus tristique congue. Sed sit amet venenatis lorem. Pellentesque lacus diam, tempor id est efficitur, placerat viverra nunc. Proin in tincidunt tortor. Donec  felis venenatis, malesuada augue et, tincidunt quam. Curabitur condimentum eu ante liquet posuere. Vivamus ac leo a magna cursus mollis. Proin mollis quis dui blandit lacinia. Nam iaculis lectus non laoreet imperdiet.",
+        "subtitle": "Socio Principal: Germán A. Lopez Toussaint Asociado: Leandro A. Sclavo",
+        "button" : "Certificaciones"
+
+    }
+}

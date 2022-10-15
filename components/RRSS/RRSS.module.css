@@ -1,0 +1,19 @@
+.rrss{
+    display: flex;
+    flex-direction: column;
+}
+
+.rrss a {
+    padding: 0.5rem;
+}
+
+@media (max-width: 428px) {
+    .rrss{
+        
+    }
+    .rrss a {
+        padding: 0.3rem;
+    }
+  
+    
+}

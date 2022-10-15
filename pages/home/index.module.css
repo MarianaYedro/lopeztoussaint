@@ -1,0 +1,88 @@
+.container {
+    width: auto;
+    
+}
+
+.banner {
+    background-image: url("/img/home/somos.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+   
+}
+
+.title {
+    color: #f0f0f0;
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    border-bottom: solid 4px #0063a0;
+}
+.title1 {
+    font-weight: 100;
+}
+
+.about {
+    background-color: #f0f0f0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.map {
+    border: 0;
+}
+
+/* .rrss {
+    position:absolute;
+	top:550px;
+	left:42px;
+}*/
+
+@media (max-width: 768px) {
+    .rrss {
+        width: 2rem;
+        position:absolute;
+        top:270px;
+        left:20px;
+    }
+    
+}
+
+@media (max-width: 428px) {
+    .rrss {
+        width: 1.5rem;
+        position:absolute;
+        top:140px;
+        left:390px;
+    }
+    .contact {
+        display: block;
+    }
+    .map {
+        width: 26.7rem;
+        height: 15rem;
+    }
+    
+}
+
+@media (max-width: 428px) {
+    .rrss {
+        width: 1.3rem;
+        position:absolute;
+        top:140px;
+        left:300px;
+    }
+    
+}
+
+
+
+
+

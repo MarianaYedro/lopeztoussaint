@@ -1,0 +1,84 @@
+{
+    "about": {
+        "title": "Sobre nosotros",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium velit porta lectus tristique congue. Sed sit amet venenatis lorem. Pellentesque lacus diam, tempor id est efficitur, placerat viverra nunc. Proin in tincidunt tortor. Donec  felis venenatis, malesuada augue et, tincidunt quam. Curabitur condimentum eu ante liquet posuere. Vivamus ac leo a magna cursus mollis. Proin mollis quis dui blandit lacinia. Nam iaculis lectus non laoreet imperdiet.",
+        "subtitle": "Socio Principal: Germán A. Lopez Toussaint Asociado: Leandro A. Sclavo",
+        "button" : "Certificaciones"
+
+    },
+
+    "customer" : {
+        "title": "Nuestros Clientes"
+    },
+
+    "services" : [
+        {
+            "id" : 1,
+            "title": "Consultoría Tributaria",
+            "subtitle" : "Asesoramiento Tributario",
+            "text" : "Servicios de asesoramiento tributario nacional e internacional. Análisis del impacto de los impuestos en las operaciones locales e internacionales. Análisis especiales para reorganizaciones.",
+            "subtitle2" : "Planificación impositiva",
+            "text2" : "Planificación y asistencia en el establecimiento de nuevas operaciones en la Argentina o en el exterior, que mejor se adapten a las necesidades de su empresa y de la manera más eficiente.",
+            "subtitle3" : "Precios de Transferencia",
+            "text3" : "Asistencia en el cumplimiento de las obligaciones emergentes del régimen de operaciones internacionales. Elaboración de informes de precios de transferencia y declaraciones juradas."
+
+        },
+
+        {
+            "id" : 2,
+            "title": "Pericias Tributarias",
+            "subtitle" : "Asesoramiento Tributario",
+            "text" : "Servicios de asesoramiento tributario nacional e internacional. Análisis del impacto de los impuestos en las operaciones locales e internacionales. Análisis especiales para reorganizaciones.",
+            "subtitle2" : "Planificación impositiva",
+            "text2" : "Planificación y asistencia en el establecimiento de nuevas operaciones en la Argentina o en el exterior, que mejor se adapten a las necesidades de su empresa y de la manera más eficiente.",
+            "subtitle3" : "Precios de Transferencia",
+            "text3" : "Asistencia en el cumplimiento de las obligaciones emergentes del régimen de operaciones internacionales. Elaboración de informes de precios de transferencia y declaraciones juradas."
+        },
+
+        {
+            "id" : 3,
+            "title": "Estudios y consultores relacionados",
+            "subtitle" : "Asesoramiento Tributario",
+            "text" : "Servicios de asesoramiento tributario nacional e internacional. Análisis del impacto de los impuestos en las operaciones locales e internacionales. Análisis especiales para reorganizaciones.",
+            "subtitle2" : "Planificación impositiva",
+            "text2" : "Planificación y asistencia en el establecimiento de nuevas operaciones en la Argentina o en el exterior, que mejor se adapten a las necesidades de su empresa y de la manera más eficiente.",
+            "subtitle3" : "Precios de Transferencia",
+            "text3" : "Asistencia en el cumplimiento de las obligaciones emergentes del régimen de operaciones internacionales. Elaboración de informes de precios de transferencia y declaraciones juradas."
+        },
+
+        {
+            "id" : 4,
+            "title": "Capacitación",
+            "subtitle" : "Asesoramiento Tributario",
+            "text" : "Servicios de asesoramiento tributario nacional e internacional. Análisis del impacto de los impuestos en las operaciones locales e internacionales. Análisis especiales para reorganizaciones.",
+            "subtitle2" : "Planificación impositiva",
+            "text2" : "Planificación y asistencia en el establecimiento de nuevas operaciones en la Argentina o en el exterior, que mejor se adapten a las necesidades de su empresa y de la manera más eficiente.",
+            "subtitle3" : "Precios de Transferencia",
+            "text3" : "Asistencia en el cumplimiento de las obligaciones emergentes del régimen de operaciones internacionales. Elaboración de informes de precios de transferencia y declaraciones juradas."
+        }
+        
+    ],
+
+    "section" : {
+        "elements" : [
+            {
+            "image" : "/img/home/services/consultoria.svg",
+            "to" : "Consultoría Tributaria"
+            },
+            {
+            "image" : "/img/home/services/pericias.svg",
+            "to" : "Pericias Tributarias"
+            },
+            {
+            "image" : "/img/home/services/estudios.svg",
+            "to" : "Estudios y Consultores Relacionados"
+            },
+            {
+            "image" : "/img/home/services/capacitacion.svg",
+            "to" : "Capacitación"
+            }      
+            
+        ]      
+
+    }
+}

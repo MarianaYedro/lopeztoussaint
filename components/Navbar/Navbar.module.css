@@ -1,0 +1,75 @@
+.nav {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    color: #606060;  
+}
+
+.navBox {
+    padding-top: 1rem;
+}
+
+.navBox a{
+    padding-left: 2rem;
+}
+
+.navBox a:hover {
+    color: #368ddd;
+}
+
+/*@media (max-width: 957px) {
+    .nav {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .navBox {
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+    .navBox a{
+        padding-left: 1rem;
+    }
+    
+}
+
+@media (max-width: 829px) {
+    .nav {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .navBox {
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
+    .navBox a{
+        padding-left: 1rem;
+    }
+    
+}*/
+
+@media (max-width: 768px) {
+    .nav {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .navBox {
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
+    .navBox a{
+        padding-left: 1rem;
+    }
+    
+}
+
+@media (max-width: 428px) {
+    .navBox {
+        display: none;
+    }
+    
+}
+
