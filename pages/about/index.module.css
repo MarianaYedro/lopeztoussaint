@@ -1,0 +1,23 @@
+.rrss {
+    position:absolute;
+	top:550px;
+	left:42px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    color: #368ddd;
+}
+
+@media (max-width: 428px) {
+    .rrss {
+        width: 1.5rem;
+        position:absolute;
+        top:140px;
+        left:380px
+    }
+    
+}
+

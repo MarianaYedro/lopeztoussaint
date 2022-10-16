@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "./Layout.module.css";
 
 
+
 export default function Layout({children, title, description, navbar, footer}) {
   return (
     <div className={styles.container}>
