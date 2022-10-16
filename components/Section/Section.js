@@ -15,7 +15,7 @@ const Section = ({elements}) => {
           <section key={elements}>
               <div className={styles.box} id="services"> 
                 <Link href="/">
-                  <a className={styles.img}><Image src={image} width={100} height={80} /></a>
+                  <a className={styles.img}><Image src={image} width={100} height={80} alt="services"/></a>
                 </Link>
                 <Link href="/"><a>{to}</a></Link>
               </div>

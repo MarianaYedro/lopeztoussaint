@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import nodemailer from 'nodemailer';
+/*import nodemailer from 'nodemailer';
 
 export default async (req, res) => {
   const { name, firma, phone, email, message } = req.body;
@@ -34,4 +34,4 @@ export default async (req, res) => {
   }
 
   res.status(200).json(req.body);
-};
+};*/
