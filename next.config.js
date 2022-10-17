@@ -6,9 +6,17 @@ const nextConfig = {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
+  },
+  redirects: async () => {
+    return [
+      {
+        source: "/",
+        destination: "/home",
+        permanent: false,
+      }
+    ]
   }
 }
 
-
-
 module.exports = nextConfig
+
