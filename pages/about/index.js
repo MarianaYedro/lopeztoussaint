@@ -12,7 +12,7 @@ import All from "../../components/Footer/All";
 import Certifications from '../../components/Certifications/Certifications';
 import ES from "./es.json";
 import RRSS from "../../components/RRSS/RRSS";
-//import "normalize.css";
+
 
 export const About = ({data}) => {
   const {about} = data;
