@@ -15,7 +15,8 @@ const nextConfig = {
         permanent: false,
       }
     ]
-  }
+  },
+  distDir: 'build',
 }
 
 module.exports = nextConfig
