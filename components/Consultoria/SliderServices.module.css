@@ -127,10 +127,6 @@
     .content {
         display: block;
     }
-    .box {
-        width: 24rem;
-    }
-    
 }
 
 @media (max-width: 428px) {

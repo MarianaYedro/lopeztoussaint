@@ -19,7 +19,7 @@ function Certifications () {
     }
     return(
         <div className={styles.container}>
-            <h2>Certificaciones</h2>
+            <h2 id="certifications">Certificaciones</h2>
 
             <Slider {...settings}>
                 <div>

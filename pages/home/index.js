@@ -28,11 +28,9 @@ export const Home = ({ data }) => {
                             <h1 className={styles.title1}>SOMOS</h1>
                             <h1>CONSULTORES</h1>
                             <h1>TRIBUTARIOS</h1>
-                        
                         </div>
                         
-                        <div><RRSS/></div>
-                            
+                        <div><RRSS/></div>      
                     </div>
 
                     <Section elements={section.elements}/>

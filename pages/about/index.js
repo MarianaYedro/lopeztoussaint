@@ -12,6 +12,7 @@ import All from "../../components/Footer/All";
 import Certifications from '../../components/Certifications/Certifications';
 import ES from "./es.json";
 import RRSS from "../../components/RRSS/RRSS";
+import Link from "next/link";
 
 
 export const About = ({data}) => {
@@ -22,13 +23,16 @@ export const About = ({data}) => {
         <div>
             <div><Navbar/></div>
 
-            <div>
-              <Image src="/img/about/about.jpg" width={1920} height={936} alt="lts" />
-              <div className={styles.rrss}><RRSS/></div>
+            <div className={styles.banner}>
+              <div>
+              </div>
+                <div><RRSS/></div>              
             </div>
             
-            <SectionAbout title={about.title} text={about.text} subtitle={about.subtitle} button={about.button}/>
-            
+            <div className={styles.about}>
+              <SectionAbout title={about.title} text={about.text} subtitle={about.subtitle} button={about.button}/>
+            </div>
+
             <PartnerGerman/>
             
             <PartnerLeandro/>
@@ -40,6 +44,8 @@ export const About = ({data}) => {
                 <h2>¿Dudas?</h2>
                 <h2>Ponete en contacto con nosotros</h2>
               </div>
+              
+  
             </div>
 
             <div><Footer/><All/></div> 

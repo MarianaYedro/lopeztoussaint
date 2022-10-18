@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    align-items: center;
+   
+}
+
+.button {
+    color: #368ddd;
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    top: -6px;
+    left: 10rem;
+}
+
+@media (max-width: 428px) {
+    .box {
+        align-items: baseline;
+       
+    }
+ 
+    
+}

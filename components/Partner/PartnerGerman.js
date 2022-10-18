@@ -6,7 +6,6 @@ import styles from "./PartnerGerman.module.css";
 export default function Partner() {
   return (
     <div className={styles.container}>
-        <div className={styles.img}><Image src="/img/about/german.png" width={817} height={708} alt="lts" /></div>
         <div className={styles.box}>
             <h2 className={styles.title1}>Socio Principal:</h2>
             <h2 className={styles.title2}>Germán A. Lopez Toussaint</h2>
@@ -31,6 +30,9 @@ export default function Partner() {
               <li>Profesor Adjunto y Titular.</li>
             </div>
         </div>
+
+        <div className={styles.img}><Image src="/img/about/german.png" width={817} height={708} alt="lts" /></div>
+
     </div>
   )
 }

@@ -1,7 +1,22 @@
-.rrss {
-    position:absolute;
-	top:550px;
-	left:42px;
+.banner {
+    background-image: url("/img/about/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 47rem;
+}
+
+
+
+.about {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
 }
 
 .box {
@@ -9,6 +24,13 @@
     flex-direction: column;
     padding: 3rem;
     color: #368ddd;
+}
+
+
+@media (max-width: 768px) {
+    .box {
+        text-align: center;
+    }
 }
 
 @media (max-width: 428px) {
@@ -20,4 +42,6 @@
     }
     
 }
+
+
 

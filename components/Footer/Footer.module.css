@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    justify-content: space-between;
     background-color: #6d6d6d;
     color: #ffffff;
     padding-left: 5rem;
@@ -13,9 +14,6 @@
     font-size: small;
 }
 
-.container div {
-    width: 20rem;
-}
 
 @media (max-width: 768px) {
     .container {
@@ -50,12 +48,8 @@
     .container{
         display: block;
         text-align: center;
-        padding-left: 4rem;
-        padding-right: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-      
     }
+    
    .box{
         padding: 0.5rem;
    }

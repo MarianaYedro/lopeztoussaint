@@ -1,20 +1,21 @@
 {
   "name": "lopeztoussaint",
   "version": "0.1.0",
-  "private": true,  
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
     "clsx": "^1.2.1",
+    "icons": "^1.0.0",
     "next": "12.3.1",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.37.0",
+    "react-icons": "^4.6.0",
     "react-slick": "^0.29.0",
     "sharp": "^0.31.1",
     "slick-carousel": "^1.8.1",

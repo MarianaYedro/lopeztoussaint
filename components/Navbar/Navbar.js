@@ -1,25 +1,30 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from 'react';
-import styles from "./Navbar.module.css"
+import styles from "./Navbar.module.css";
+import Dropdown from "./Dropdown";
+import NavLinks from "./NavLinks";
+
 
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
-          <div>
-            <Link href="/home/"><a>
+
+          <div className={styles.logo}>
+            <Link href="/home/">
+              <a>
               <Image src="/img/lts-logo.svg" width={170} height={50} alt="lts" />
               </a>
             </Link>
           </div>
 
-            <div className={styles.navBox}>
-                <Link href="/home/#services"><a>Servicios</a></Link>
-                <Link href="/about"><a>Sobre Nosotros</a></Link>
-                <Link href="/home/#customers"><a>Nuestros Clientes</a></Link>
-                <Link href="/"><a>Certificaciones</a></Link>
-                <Link href="/home/#contact"><a>Contacto</a></Link>
-            </div>
+          <div className={styles.navlinks}>
+            <NavLinks/>
+          </div>
+          
+          <div className={styles.hamburger}>
+            <Dropdown/>
+          </div>  
     </nav>
   );
 }

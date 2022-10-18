@@ -9,13 +9,14 @@ import Image from 'next/image';
 const SectionAbout= ({title, text, subtitle, button}) => {
   return (
     <section className={styles.about}>
+      
         <div className={styles.box}>
 
             <h2>{title}</h2>
             <p>{text}</p>
             <h4>{subtitle}</h4>
             
-            <button><Link href="/"><a>{button}</a></Link></button>
+            <button><Link href="about/#certifications"><a>{button}</a></Link></button>
         
         </div>
 
