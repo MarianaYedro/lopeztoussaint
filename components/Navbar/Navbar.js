@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from 'react';
 import styles from "./Navbar.module.css";
-import Dropdown from "./Dropdown";
+//import Dropdown from "./Dropdown";
 import NavLinks from "./NavLinks";
 
 
@@ -23,7 +23,7 @@ export default function Navbar() {
           </div>
           
           <div className={styles.hamburger}>
-            <Dropdown/>
+            
           </div>  
     </nav>
   );
