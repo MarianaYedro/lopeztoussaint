@@ -1,10 +1,10 @@
-//import React from "react";
-//import { useForm } from "react-hook-form";
+import React from "react";
+import { useForm } from "react-hook-form";
 //import {yupResolver} from "@hookform/resolvers/yup";
 //import * as yup from "yup";
-//import { useRouter } from 'next/router';
-//import styles from "./Form.module.css";
-/*
+import { useRouter } from 'next/router';
+import styles from "./Form.module.css";
+
 export default function Form() {
   
   const router = useRouter();
@@ -16,9 +16,9 @@ export default function Form() {
     phone: yup.number().required(),
     email: yup.string().required().min(4).email(50),
     message: yup.string().required().min(10).max(50),
-  }).required();
+  }).required();*/
   
-  const { register, handleSubmit, formState: { errors } } = useForm({resolver: yupResolver (schema)});
+  const { register, handleSubmit, formState: { errors } } = useForm({/*resolver: yupResolver (schema)*/});
 
   const onSubmit = data => {
     fetch('/api/contact', {
@@ -31,7 +31,7 @@ export default function Form() {
   }
 
   return (
-          <div className={styles.container}>
+          <div className={styles.container} id="#contact">
             <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
               <h2 id="contact">Formulario de consulta</h2>
                 <input
@@ -62,7 +62,7 @@ export default function Form() {
                   type="text"
                   name="email"
                   placeholder="Email"
-                  {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i })}
+                  {...register("email", {required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i })}
                 />
                   {errors.email && <span>Por favor, ingresá un email válido</span>}
     
@@ -73,8 +73,8 @@ export default function Form() {
                 </textarea>
                   {errors.message && <span>Por favor, ingresá una consulta</span>}
                 
-                <button type="submit" className={styles.button}> Enviar </button>
+                  <div><button type="submit" className={styles.button}> Enviar </button></div>
             </form>
           </div>
   );
-}*/
+}

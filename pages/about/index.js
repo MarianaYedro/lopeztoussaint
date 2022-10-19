@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from 'react';
-import Image from 'next/dist/client/image';
 import Layout from "../../components/Layout/Layout";
 import Navbar from "../../components/Navbar/Navbar";
 import SectionAbout from "../../components/SectionAbout/SectionAbout";
@@ -41,10 +40,11 @@ export const About = ({data}) => {
 
             <div className={styles.box}>
               <div>
-                <h2>¿Dudas?</h2>
-                <h2>Ponete en contacto con nosotros</h2>
+                <h1>¿Dudas?</h1>
+                <h1>Ponete en contacto con nosotros</h1>
               </div>
               
+              <button><Link href="home/#contact"><a>Contacto</a></Link></button>
   
             </div>
 

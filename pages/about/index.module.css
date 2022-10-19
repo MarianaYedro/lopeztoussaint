@@ -20,10 +20,26 @@
 }
 
 .box {
+    background: linear-gradient(to left, #0063a0, #64d9ed);
     display: flex;
-    flex-direction: column;
-    padding: 3rem;
-    color: #368ddd;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    color: white;
+}
+
+.box h1 {
+    text-align: left;
+}
+
+.box button {
+    border: none;
+    background-color: white;
+    color: #0063a0;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 
@@ -41,6 +57,13 @@
         left:380px
     }
     
+    .box {
+        display: block;
+    }
+
+    .box h1 {
+        text-align: center;
+    }
 }
 
 

@@ -1,11 +1,21 @@
+.items {
+
+    text-align: right;
+}
 .items a{
-    padding-left: 2rem;
+    padding-left: 1.5rem;
     color: #606060;
 }
 
 .items a:hover {
     color: #368ddd;
 }
+
+@media (max-width: 768px) {
+    /*.items {
+        font-size: 0.7rem; 
+      }  */
+  }
 
 @media (max-width: 428px) {
     .items {
